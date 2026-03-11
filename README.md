@@ -6,10 +6,15 @@ I am investigating the differences in my Spotify wrapped before, during and afte
 
 ### Chromagrams
 
-![Jealous-Labrynth](Jealous_Chromagram.png) Jealous is a stripped down simple song with only one voice and a piano. The major piano chords in jealous are Db (C#), Gb (F#), Ab and Bb. All these can be easily seen in the chromagram.
+![Jealous-Labrynth](Jealous_Chromagram.png) 
+Jealous is a stripped down simple song with only one voice and a piano. The major piano chords in jealous are Db (C#), Gb (F#), Ab and Bb. All these can be easily seen in the chromagram.
 
-![Moral of the Story-Ashe](Mots_Chromagram.png) Moral of the story is full with many harmonies and multiple instruments, and seemingly heavy production. As is to be expected, we can see more notes highlighted as was expected due to there being many harmonies and instruments.
+![Moral of the Story-Ashe](Mots_Chromagram.png) 
+Moral of the story is full with many harmonies and multiple instruments, and seemingly heavy production. As is to be expected, we can see more notes highlighted as was expected due to there being many harmonies and instruments.
 
-![Je te laisserai des mots-Patrick Watson](je_te_chromagram.png) Similar to Jealous, this song is more simple, it has piano, one voice and a string section which occasionally is played. We can see the key chords throught the entire song very clearly.
+![Je te laisserai des mots-Patrick Watson](je_te_chromagram.png) 
+Similar to Jealous, this song is more simple, it has piano, one voice and a string section which occasionally is played. We can see the key chords throught the entire song very clearly.
 
-### Self- Similarity Matrices
+### Keygram
+![Jealous-Labrynth](keygram_jete.png) 
+As can be seen in the keygram, the tonal centre is G major which can be seen as the most dark blue part 
