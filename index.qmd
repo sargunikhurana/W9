@@ -62,4 +62,4 @@ This is the novelty function of 'Moral of the Story' by Ashe. In between seconds
 
 ![Autocorrelation tempogram](mots_fourier.png)
 
-The autocorrelation tempogram is not very clear. This is because the autocorrelation tempogram reads the rhythmic self-similarity. Throughout the song there is a lot of different instruments, harmonies and different styles of singing as well. I believe due to this diversity, this tempgram is unclear. 
+The autocorrelation tempogram is not very clear. This is because the autocorrelation tempogram reads the rhythmic self-similarity. Throughout the song there is a lot of different instruments, harmonies and different styles of singing as well. I believe due to this diversity, this tempgram is unclear.
