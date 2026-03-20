@@ -136,13 +136,13 @@ albums_forest <-
   )
 
 albums_forest |> get_pr()
+```
 
+```{r}
 albums_forest |> get_conf_mat() |> autoplot(type = "heatmap")
+
 ```
 From these numbers, we can see that indeed it was hardest for Random Forest to be able to classify 'A matter of time' and easiest for 'The Clearing'.
-
-
-
 
 ## Column {width=60%}
 
