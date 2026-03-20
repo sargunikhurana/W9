@@ -65,7 +65,11 @@ WIP
 
 ## Column {width=40%}
 
+### Row
+
 Based on the albums, I expect 'A Matter of Time' and 'Older (and Wiser)' to be harder to tell apart, this can also be seen in the box plot on the right. They are both more acoustic, similar in energy and in other features as well. In contrast, 'The Clearing' is more different than the other albums. 
+
+### Row
 
 ```{r}
 library(tidymodels)
@@ -137,6 +141,8 @@ albums_forest <-
 
 albums_forest |> get_pr()
 ```
+
+### Row 
 
 ```{r}
 albums_forest |> get_conf_mat() |> autoplot(type = "heatmap")
