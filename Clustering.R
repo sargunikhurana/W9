@@ -123,3 +123,34 @@ albums |>
     colour = "Playlist"
   )
 
+albums_recipe <-
+  recipe(
+    Album.Name ~
+      Energy +
+      Loudness +
+      Speechiness +
+      Acousticness +
+      `Duration..ms.`,
+    data = albums                    # Use the same name as the previous block.
+  ) |>
+  step_center(all_predictors()) |>
+  step_scale(all_predictors())      # Converts to z-scores.
+# step_range(all_predictors())    # Sets range to [0, 1].
+
+albums_cv <- albums |> vfold_cv(10)
+
+forest_model <-
+  rand_forest() |>
+  set_mode("classification") |> 
+  set_engine("ranger", importance = "impurity")
+
+albums_forest <- 
+  workflow() |> 
+  add_recipe(albums_recipe) |> 
+  add_model(forest_model) |> 
+  fit_resamples(
+    albums_cv, 
+    control = control_resamples(save_pred = TRUE)
+  )
+
+albums_forest |> get_pr()
